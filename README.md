@@ -26,30 +26,16 @@ sudo make install
 To set the theme in GNOME, run the following commands in Terminal,
 
 ```sh
-gsettings set org.gnome.desktop.interface gtk-theme "Numix"
-gsettings set org.gnome.desktop.wm.preferences theme "Numix"
+gsettings set org.gnome.desktop.interface gtk-theme "Numix Green"
+gsettings set org.gnome.desktop.wm.preferences theme "Numix Green"
 ```
 
 To set the theme in Xfce, run the following commands in Terminal,
 
 ```sh
-xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
-xfconf-query -c xfwm4 -p /general/theme -s "Numix"
+xfconf-query -c xsettings -p /Net/ThemeName -s "Numix Green"
+xfconf-query -c xfwm4 -p /general/theme -s "Numix Green"
 ```
-
-### For contributors
-Start by reviewing the [guidelines for contributing](https://github.com/numixproject/numix-gtk-theme/blob/master/.github/CONTRIBUTING.md).
-
-#### For developers
-If you want to hack on the theme, make sure you have the `inotifywait` command available, which is used for watching and automatically building the files.
-
-To start watching for changes, run the following,
-
-```sh
-make watch
-```
-
-If you change any assets, you'll need to regenerate the `gtk.gresource.xml` and `gtk.gresource` files. You can use [grrr](https://github.com/satya164/grrr) to do it easily.
 
 ### Requirements
 
@@ -59,6 +45,6 @@ Murrine theme engine
 
 ### Code and license
 
-Report bugs or contribute at [GitHub](https://github.com/numixproject/numix-gtk-theme)
+Report bugs or contribute at [GitHub](https://github.com/Madh93/numix-green-gtk-theme)
 
 License: GPL-3.0+
