@@ -1,6 +1,7 @@
-## Numix
+## Numix Green
 ##### A modern flat theme with a combination of light and dark elements. It supports GNOME, Unity, Xfce and Openbox.
-[![By The Numix Project](https://img.shields.io/badge/By-The%20Numix%20Project-red.svg?style=flat-square)](https://numixproject.org/) &nbsp;[![Circle CI](https://img.shields.io/circleci/project/numixproject/numix-gtk-theme/master.svg?circle-token=b14acf911433d315298235b0c2fbf7b2670a92a8&maxAge=2592000&style=flat-square)](https://circleci.com/gh/numixproject/numix-gtk-theme/tree/master) &nbsp;![Supports GTK+ 3.16](https://img.shields.io/badge/GTK%2B-3.16-blue.svg?style=flat-square) &nbsp;![Supports GTK+ 3.20](https://img.shields.io/badge/GTK%2B-3.20-blue.svg?style=flat-square)
+
+Numix Green is a fork of [Numix](https://github.com/numixproject/numix-gtk-theme) and is inspired in [other previous green theme](https://github.com/Yharooer/numix-green). Numix is a part of the [Numix Project](http://numixproject.org).
 
 ### Manual installation
 
