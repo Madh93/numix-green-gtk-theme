@@ -3,22 +3,22 @@
 @import "functions";
 
 // default color scheme
-$bg_color: if($variant == "dark", #444, #eee);
+$bg_color: if($variant == "dark", #444, #eeeeee);
 $fg_color: if($variant == "dark", #ddd, #555);
-$base_color: if($variant == "dark", #333, #fff);
+$base_color: if($variant == "dark", #333, #ffffff);
 $text_color: if($variant == "dark", #eee, #333);
-$selected_bg_color: #f0544c;
-$selected_fg_color: #fff;
-$tooltip_bg_color: #444;
-$tooltip_fg_color: #eee;
+$selected_bg_color: #388e3c;
+$selected_fg_color: #ffffff;
+$tooltip_bg_color: #2d2d2d;
+$tooltip_fg_color: #dcdcdc;
 
 $selected_borders_color: if($variant == 'light', darken($selected_bg_color, 30%), darken($selected_bg_color, 20%));
 $borders_color: if($variant == 'light', shade($bg_color, .85), shade($bg_color, .88));
 $borders_edge: if($variant == 'light', transparentize(white, 0.2), transparentize($fg_color, 0.93));
 
 // dark colors
-$dark_bg_color: #444;
-$dark_fg_color: #eee;
+$dark_bg_color: #2d2d2d;
+$dark_fg_color: #dcdcdc;
 
 // shadows
 $dark_shadow: #000;
@@ -53,10 +53,10 @@ $question_fg_color: #fff;
 $question_bg_color: #673ab7;
 $error_fg_color: #fff;
 $error_bg_color: #f44336;
-$link_color: #3f51b5;
-$success_color: #4caf50;
-$warning_color: #ef6c00;
-$error_color: #f44336;
+$link_color: #fc6f5d;
+$success_color: #53a93f;
+$warning_color: #f57900;
+$error_color: #cc0000;
 
 $toolbar_bg_color: $bg_color;
 $toolbar_fg_color: $fg_color;
